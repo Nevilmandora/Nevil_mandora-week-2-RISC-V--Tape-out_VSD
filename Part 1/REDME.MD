@@ -9,6 +9,9 @@
 * In other words, the CPU, internal memory, I/O ports, analog processor, as well as additional application-specific circuit blocks, are all designed to be integrated on the same chip. SoCs differentiate themselves from traditional devices and PC architectures, where a separate chip is used for the CPU, GPU, RAM, and other essential functional components.
 
 
+
+
+
 ## Components of SoC:
 
 Components contained within an SoC can be:
@@ -41,7 +44,7 @@ SoCs can be used in a variety of applications, from children’s toys and doorbe
 * Industrial applications
 
 
-## SoC Design: Pros and Cons:
+## SoC Design: Pros and Cons
 
 ### Pros:
 
