@@ -64,17 +64,18 @@ This project delves into designing a compact, open-source System on Chip (SoC) b
 
 
 ## Project Structure :
-**src/include/ - Contains header files (*.vh) with necessary macros or parameter definitions.**
 
-**src/module/ - Contains Verilog files for each module in the SoC design.**
+**src/include/ - This directory include all header files(.vh) and some macro definitions.**
 
-**output/ - Directory where compiled outputs and simulation files will be generated.**
+**src/module/ - This directory include all the necessary verilog files like dac, pll, vsdbabysoc, testbench etc.. So all the .v files are here for all modules.**
+
+**output/ - This directory includes all simulation output files after simulation.**
 
 
 
 ## Setup and Prepare Project Directory :
 
-Clone or set up the directory structure as follows:
+I crated this structure for the project.
 
      VSDBabySoC/
      ├── src/
