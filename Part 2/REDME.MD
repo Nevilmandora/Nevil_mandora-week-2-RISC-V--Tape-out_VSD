@@ -29,11 +29,11 @@
 
 * VSDBabySoC is a compact SoC featuring:
 
-** RVMYTH: A simple RISC-V-based CPU core.
+  ** RVMYTH: A simple RISC-V-based CPU core.
 
-** PLL: An 8x Phase-Locked Loop for stable clock generation.
+  ** PLL: An 8x Phase-Locked Loop for stable clock generation.
 
-** DAC: A 10-bit Digital-to-Analog Converter for interfacing with analog devices.
+  ** DAC: A 10-bit Digital-to-Analog Converter for interfacing with analog devices.
 
 
 * Its primary purpose is to integrate and test these IPs collaboratively and calibrate the analog part of the SoC.
