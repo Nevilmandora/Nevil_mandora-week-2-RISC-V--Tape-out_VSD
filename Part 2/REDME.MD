@@ -103,9 +103,7 @@ I crated this structure for the project.
          cd ~/VLSI/VSDBabySoC/
 
          cd ~VLSI/VSDBabySoC/src/module/
-
          avsddac.v  clk_gate.v      pseudo_rand_gen.sv  rvmyth.v      testbench.rvmyth.post-routing.v  vsdbabysoc.v
-
          avsdpll.v  pseudo_rand.sv  rvmyth.tlv          rvmyth_gen.v  testbench.v
      
 
