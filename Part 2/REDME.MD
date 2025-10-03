@@ -106,7 +106,30 @@ I crated this structure for the project.
          avsddac.v  clk_gate.v      pseudo_rand_gen.sv  rvmyth.v      testbench.rvmyth.post-routing.v  vsdbabysoc.v
          avsdpll.v  pseudo_rand.sv  rvmyth.tlv          rvmyth_gen.v  testbench.v
      
+* follow above commands and check for the files that are included in src/module/
 
+* if you have clone project from git then the structure is ready and if you have create the project structure then from git copy the content of all files in your project.
+
+
+##  TLV to .v conversion of the rvmyth file :
+
+* So in the module directory all .v files are present but for rvmyth .tlv file is there but for the simulation in iverilog we need .v file of rvmyth module.
+so we need to convert that file to .v file.
+
+       # Step 1: Install python3-venv (if not already installed)
+       sudo apt update
+       sudo apt install python3-venv python3-pip
+
+       # Step 2: Create and activate a virtual environment
+       cd ~/VLSI/VSDBabySoC/
+       python3 -m venv sp_env
+       source sp_env/bin/activate
+
+       # Step 3: Install SandPiper-SaaS inside the virtual environment
+       pip install pyyaml click sandpiper-saas
+
+       # Step 4: Convert rvmyth.tlv to Verilog
+       sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 
 
 
