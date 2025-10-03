@@ -98,15 +98,15 @@ I crated this structure for the project.
 
 * We can clone the VSDBabySoC project structure from github or also you can create the project structure as mentioned above. and after create this type of project structure we can copy the content of the files from github repo and paste it in our structure of project and then we can done simulation.
 
-     cd ~/VLSI
+         cd ~/VLSI
 
-     cd ~/VLSI/VSDBabySoC/
+         cd ~/VLSI/VSDBabySoC/
 
-     cd ~VLSI/VSDBabySoC/src/module/
+         cd ~VLSI/VSDBabySoC/src/module/
 
-     avsddac.v  clk_gate.v      pseudo_rand_gen.sv  rvmyth.v      testbench.rvmyth.post-routing.v  vsdbabysoc.v
+         avsddac.v  clk_gate.v      pseudo_rand_gen.sv  rvmyth.v      testbench.rvmyth.post-routing.v  vsdbabysoc.v
 
-     avsdpll.v  pseudo_rand.sv  rvmyth.tlv          rvmyth_gen.v  testbench.v
+         avsdpll.v  pseudo_rand.sv  rvmyth.tlv          rvmyth_gen.v  testbench.v
      
 
 
