@@ -218,3 +218,23 @@ This is the primary source file that iverilog will process, along with any inclu
 ![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(27).png)
 
 
+* So after successfully run the commands we can see this type of waveforms in gtkwave.
+
+
+## Checking Reset Operation :
+
+* In gtkwave, explore the signal hierarchy under vsdbabysoc_tb to add relevant signals for analysis.
+
+* Signals to Add :
+
+vsdbabysoc_reset,  vsdbabysoc_tb.vsdbabysoc_core.RV_TO_DAC[9:0] (output from rvmyth to avsddac), vsdbabysoc_tb.vsdbabysoc.OUT (final output from avsddac)
+
+* During reset = 1 (20-100ns), RV_TO_DAC[9:0] and OUT should remain at their initial values.
+
+* After reset = 0 (post 100ns), RV_TO_DAC[9:0] should start updating based on the rvmyth execution, and OUT should reflect the DAC Conversion.
+
+
+**Correct Behaviour:**
+
+* No changes in RV_TO_DAC or OUT during reset.
+
