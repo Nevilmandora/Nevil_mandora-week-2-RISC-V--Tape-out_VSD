@@ -174,32 +174,32 @@ after that,
 
 ## iverilog command overview :
 
-* iverilog - This is the command to invoke the icarus verilog compiler, for verilog simulation.
+* **iverilog** - This is the command to invoke the icarus verilog compiler, for verilog simulation.
 
-* -o ~/VLSI/VSDBabySoC/output/pre_synth_sim/pre_synth_sim.out - 
+* **-o ~/VLSI/VSDBabySoC/output/pre_synth_sim/pre_synth_sim.out** : 
 
 -o specifies the output file name for the compiled simulation executable.
 
 ~ - represents the user's home directory. the path indicates where the output file will be saved : inside the output/pre_synth_sim subdirectory of VSDBabySoC project folder. pre_synth_sim.out is the name of the executable file generated after compilation.
 
-* -DPRE_SYNTH_SIM - 
+* **-DPRE_SYNTH_SIM** : 
 
 -D defines the preprocessor macro , similar to the #define in c. it allows conditional compilation in verilog.
 PRE_SYNTH_SIM is the name of the macro being defined. it can be used in verilog code to enable or disable specific code blocks, likely for pre-synthesis simulation process.
 
-* -I ~/VLSI/VSDBabySoC/src/include :
+* **-I ~/VLSI/VSDBabySoC/src/include** :
 
 -I specifies an include directory where iverilog should look for verilog files(.v files).
 
 ~/VLSI/VSDBabySoC/src/module - this is the directory path where header or include files for project are stored. the compiler will search here for any files included in the verilog source code.
 
-* -I ~/VLSI/VSDBabySoC/src/module :
+* **-I ~/VLSI/VSDBabySoC/src/module** :
 
 Another -I option, adding another include directory.
 
 ~/VLSI/VSDBabySoC/src/module - This directory likely contains module definitions or additional Verilog files that might be included in the testbench or other source files. The compiler will also search here for include files.
 
-* ~/VLSI/VSDBabySoC/src/module/testbench.v : 
+* **~/VLSI/VSDBabySoC/src/module/testbench.v** : 
 
 This is the input file to compile.
 
