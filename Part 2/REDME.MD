@@ -132,6 +132,17 @@ so we need to convert that file to .v file.
        sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 
 
+* After running the above commands the rvmyth.v file will be generated inside src/module/ directory. you can confirm that by listing files indide src/module/ directory.
+
+* Now we are ready for the simulation.
+
+
+## Simulation Steps :
+
+* For the pre-synthesis simulation, run the following commands
+
+
+
 
 
 
