@@ -15,7 +15,7 @@
 * VSDBabySoC contains one RVMYTH microprocessor, an 8x-PLL to generate a stable clock, and a 10-bit DAC to communicate with other analog devices.
 
 
-
+![BabySoC block](C:\Users\nevil\Downloads\BabySoC_block.png)
 
 
 ## What is SoC 
