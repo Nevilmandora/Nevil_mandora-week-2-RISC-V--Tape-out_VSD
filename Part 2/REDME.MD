@@ -143,6 +143,8 @@ so we need to convert that file to .v file.
 
 ![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(21).png)
 
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(22).png)
+
 
 
 * Now we are ready for the simulation.
