@@ -145,13 +145,13 @@ so we need to convert that file to .v file.
 
        mkdir -p output/pre_synth_sim
 
-       iverilog -o ~/VLSI/VSDBabySoC/output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I ~/VLSI/VSDBabySoC/src/include -I ~/VLSI/VSDBabySoC/src/module              ~/VLSI/VSDBabySoC/src/module/testbench.v
+       iverilog -o ~/VLSI/VSDBabySoC/output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I ~/VLSI/VSDBabySoC/src/include -I ~/VLSI/VSDBabySoC/src/module  ~/VLSI/VSDBabySoC/src/module/testbench.v
 
 after that,
 
-       cd output/pre_synth_sim
+     cd output/pre_synth_sim
 
-       ./pre_synth_sim.out
+     ./pre_synth_sim.out
 
 
 
