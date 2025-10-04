@@ -206,8 +206,15 @@ This is the input file to compile.
 ~/VLSI/VSDBabySoC/src/module/testbench.v: The full path to the Verilog testbench file, which contains the test logic to simulate the design (e.g., VSDBabySoC). The testbench typically instantiates the design under test (DUT) and provides stimulus to verify its behavior.
 This is the primary source file that iverilog will process, along with any included files from the -I directories.
 
+* so after this i verilog command, we in gtkwave we see the output waveforms after pre-synthesis using following command.
+
+      gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
 
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(25).png)
 
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(26).png)
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(27).png)
 
 
