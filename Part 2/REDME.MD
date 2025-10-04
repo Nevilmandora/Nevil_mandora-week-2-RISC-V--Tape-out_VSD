@@ -238,3 +238,8 @@ vsdbabysoc_reset,  vsdbabysoc_tb.vsdbabysoc_core.RV_TO_DAC[9:0] (output from rvm
 
 * No changes in RV_TO_DAC or OUT during reset.
 
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(29).png)
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(30).png)
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(31).png)
