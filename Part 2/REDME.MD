@@ -145,7 +145,7 @@ so we need to convert that file to .v file.
 
 ![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(22).png)
 
-
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(23).png)
 
 * Now we are ready for the simulation.
 
@@ -160,11 +160,16 @@ so we need to convert that file to .v file.
 
        iverilog -o ~/VLSI/VSDBabySoC/output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM -I ~/VLSI/VSDBabySoC/src/include -I ~/VLSI/VSDBabySoC/src/module  ~/VLSI/VSDBabySoC/src/module/testbench.v
 
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(24).png)
+
+
 after that,
 
      cd output/pre_synth_sim
 
      ./pre_synth_sim.out
+
 
 
 
