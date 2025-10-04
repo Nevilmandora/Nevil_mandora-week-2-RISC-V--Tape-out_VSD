@@ -266,6 +266,19 @@ Stable post-lock, synchronized with rvmyth activity.
 
 ## Checking dataflow between modules :
 
+* Signals to Add :
+vsdbabysoc_tb.vsdbabysoc.core.RV_TO_DAC[9:0] (from rvmyth), vsdbabysoc_tb.vsdbabysoc.OUT (from avsddac), vsdbabysoc_tb.vsdbabysoc.pll.CLK(for timing reference)
+
+* RV_TO_DAC[9:0] should update on CLK edges based on rvmyth instruction execution.OUT should follow RV_TO_DAC[9:0], reflecting the DAC Conversion.Changes in RV_TO_DAC should propagate to OUT.
+
+**Correct behaviour :**
+
+Seamless data flow from rvmyth to avsddac. 
+
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(35).png)
+
+
 
 
 
