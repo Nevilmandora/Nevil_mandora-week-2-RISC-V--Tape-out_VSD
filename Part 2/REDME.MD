@@ -111,6 +111,10 @@ I crated this structure for the project.
 * if you have clone project from git then the structure is ready and if you have create the project structure then from git copy the content of all files in your project.
 
 
+![VSDBabySoC Project](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(20).png)
+
+
+
 ##  TLV to .v conversion of the rvmyth file :
 
 * So in the module directory all .v files are present but for rvmyth .tlv file is there but for the simulation in iverilog we need .v file of rvmyth module.
