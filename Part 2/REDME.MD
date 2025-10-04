@@ -243,3 +243,29 @@ vsdbabysoc_reset,  vsdbabysoc_tb.vsdbabysoc_core.RV_TO_DAC[9:0] (output from rvm
 ![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(30).png)
 
 ![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(31).png)
+
+
+## Checking Clocking :
+
+* Signals to Add :
+vsdbabysoc_tb.VCO_IN (input to avsdpll), vsdbabysoc_tb.vsdbabysoc.pll,CLK (output clock from avsdpll to rvmyth), vsdbabysoc_tb.vsdbabtsoc.core.clk (clk input to rvmyth)
+
+* CLK should be stabilize after the PLL locks.Measure the period (eg. 8x VCO_IN frequency if 8x multiplication is implemented).
+
+* rvmyth.clk should match CLK Timing, driving synchronous updates in RV_TO_DAC.
+
+**Correct behaviour :**
+
+Stable post-lock, synchronized with rvmyth activity.
+
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(32).png)
+
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(33).png)
+
+
+## Checking dataflow between modules :
+
+
+
+
