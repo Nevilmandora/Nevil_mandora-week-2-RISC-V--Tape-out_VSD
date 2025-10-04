@@ -105,13 +105,16 @@ I crated this structure for the project.
          cd ~VLSI/VSDBabySoC/src/module/
          avsddac.v  clk_gate.v      pseudo_rand_gen.sv  rvmyth.v      testbench.rvmyth.post-routing.v  vsdbabysoc.v
          avsdpll.v  pseudo_rand.sv  rvmyth.tlv          rvmyth_gen.v  testbench.v
-     
+
+
+![VSDBabySoC Project](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(20).png)
+
+
 * follow above commands and check for the files that are included in src/module/
 
 * if you have clone project from git then the structure is ready and if you have create the project structure then from git copy the content of all files in your project.
 
 
-![VSDBabySoC Project](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(20).png)
 
 
 
