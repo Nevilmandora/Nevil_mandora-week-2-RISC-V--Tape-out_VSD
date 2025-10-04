@@ -141,6 +141,10 @@ so we need to convert that file to .v file.
 
 * After running the above commands the rvmyth.v file will be generated inside src/module/ directory. you can confirm that by listing files indide src/module/ directory.
 
+![image](https://raw.githubusercontent.com/Nevilmandora/Nevil_mandora-week-2-RISC-V--Tape-out_VSD/refs/heads/main/images/Screenshot%20(21).png)
+
+
+
 * Now we are ready for the simulation.
 
 
